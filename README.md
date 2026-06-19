@@ -142,7 +142,7 @@ Remember that EventBridge cron expressions are always in UTC. `cron(0 3 ? * MON-
 
 ---
 
-$## Verifying the Lambda Functions
+### Verifying the Lambda Functions
 
 Next, under **Lambda → Functions**, we confirm both functions deployed correctly with the right runtime, handler, memory, and IAM role attached:
 
