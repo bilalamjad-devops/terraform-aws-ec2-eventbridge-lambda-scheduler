@@ -114,6 +114,15 @@
 ---
 
 
+### Result EC2 has got ON 
+
+<img width="1600" height="900" alt="27- eventbridge cloudwatch" src="https://github.com/user-attachments/assets/77fc0e19-3ed6-4a92-998f-33121b1ae5e7" />
+
+
+---
+---
+---
+
 
 
 
