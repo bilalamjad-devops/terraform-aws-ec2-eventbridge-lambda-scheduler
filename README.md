@@ -3,6 +3,15 @@
 
 <img width="1600" height="900" alt="aws lambda 4" src="https://github.com/user-attachments/assets/83768fed-4fa5-43ba-b348-651ea1da6d79" />
 
+
+<img width="1600" height="900" alt="lambda and eventBridge 6" src="https://github.com/user-attachments/assets/e778594a-e047-46a0-8d1e-27837da151dc" />
+
+
+<img width="1600" height="900" alt="lambda and eventBridge 7" src="https://github.com/user-attachments/assets/555c4f7a-770a-402a-9b9b-cb0a93530277" />
+
+
+
+
 ---
 ---
 ---
@@ -130,12 +139,6 @@
 
 
 <img width="1600" height="900" alt="27c- eventbridge cloudwatch" src="https://github.com/user-attachments/assets/7065b1a9-bad8-4493-b7bc-02d3634b3922" />
-
-
-<img width="1600" height="900" alt="lambda and eventBridge 6" src="https://github.com/user-attachments/assets/e778594a-e047-46a0-8d1e-27837da151dc" />
-
-
-<img width="1600" height="900" alt="lambda and eventBridge 7" src="https://github.com/user-attachments/assets/555c4f7a-770a-402a-9b9b-cb0a93530277" />
 
 
 
