@@ -75,6 +75,32 @@
 
 
 
+### Lambda function
+
+<img width="1600" height="900" alt="10- eventbridge lambda" src="https://github.com/user-attachments/assets/21114dac-a42e-49d1-a4fa-d4a2fd168b1d" />
+
+
+<img width="1600" height="900" alt="11- eventbridge lambda" src="https://github.com/user-attachments/assets/6c57583c-06b5-4dbf-97f0-e27024d0f4c3" />
+
+
+
+<img width="1600" height="900" alt="12- eventbridge lambda" src="https://github.com/user-attachments/assets/e1157253-e792-463e-b097-43105e792484" />
+
+
+
+<img width="1600" height="900" alt="13- eventbridge lambda" src="https://github.com/user-attachments/assets/20f66b81-4738-4164-a1e5-07fefe2b8552" />
+
+
+<img width="1600" height="900" alt="14- eventbridge lambda" src="https://github.com/user-attachments/assets/8d051c6a-0e21-4e99-93ee-7b295d010e29" />
+
+
+---
+---
+---
+
+
+
+
 
 
 
