@@ -1,5 +1,13 @@
 # Stop Paying for Idle EC2 Instances Using Terraform and AWS Lambda
 
+
+# Terraform setup
+
+<img width="1600" height="900" alt="aws lambda 4" src="https://github.com/user-attachments/assets/cdd3350d-8ad3-4bd9-84c9-b9d790248e86" />
+
+
+
+# EC2
 <img width="1600" height="900" alt="1- eventbridge " src="https://github.com/user-attachments/assets/dbfbabe7-a199-4dff-b16f-ea1f78b82382" />
 
 
