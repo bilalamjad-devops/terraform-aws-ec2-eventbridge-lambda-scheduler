@@ -2,6 +2,14 @@
 
 
 
+paragraph, what bussiness problem there is. 
+
+para importance of this article
+
+para what we will do in this lab, 
+
+
+
 ## 1. terraform init, plan 
 <img width="1600" height="900" alt="aws lambda 4" src="https://github.com/user-attachments/assets/83768fed-4fa5-43ba-b348-651ea1da6d79" />
 
