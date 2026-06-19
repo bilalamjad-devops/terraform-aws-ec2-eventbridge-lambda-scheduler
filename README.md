@@ -41,6 +41,18 @@ click Launch
 
 <img width="1600" height="900" alt="7- eventbridge launch see " src="https://github.com/user-attachments/assets/ddcf38a8-6db0-437d-b004-2923a3f476ec" />
 
+---
+---
+---
+
+## 3. Delete instance
+you can see the time is 7:50AM, and in our code, it is mentioned in eventbridge_schedular cron job 8 to 5 Mon to Fri, so to do lab, we would INTENTIONALLY 
+ off the ec2, afer that, we apply terraform apply, it would create 2 eventbridge scheulars and 2 lambda functions. one eventbridge schedular   description         = "Start EC2 instances daily at 8:00 AM PKT"
+  schedule_expression = "cron(0 3 ? * MON-FRI *)"
+and other eventbridge schedular   description         = "Stop EC2 instances daily at 5:00 PM PKT"
+  schedule_expression = "cron(0 12 ? * MON-FRI *)"
+threfore, we are turning off the ec2 because it is time 7:50, when it will be 8, eventbridge -> lambda -> turns on ec2 
+
 <img width="1600" height="900" alt="7b- eventbridge launch time" src="https://github.com/user-attachments/assets/33c78aad-de07-44f4-a9ee-f04effb2dc76" />
 
 <img width="1600" height="900" alt="8- eventbridge launch stop" src="https://github.com/user-attachments/assets/73df6164-3708-43a3-9a4b-79346df542cc" />
@@ -50,6 +62,16 @@ click Launch
 ---
 
 ## 4. Terraform apply
+
+now time is 8:11 am, we apply terraform apply, it creates:
+- 2 event bridge schduler
+  - one for run cron job mon to fri 8 to 5 am
+  - one for run cron job mon to fri off servers at 5, 
+- 2 labnda functions
+  - one is trigged by ec2 start eventbridge
+  - one is trigged by ec2 stop eventbridge
+
+
 
 <img width="1600" height="900" alt="9b- eventbridge cloudwatch" src="https://github.com/user-attachments/assets/096f2f0c-29de-4063-a2de-30ffb6d0ea4d" />
 
@@ -133,7 +155,9 @@ click Launch
 ---
 
 
-### Result EC2 has got ON 
+### 5. Result EC2 has got ON 
+
+you can see our servers is start by eventbridge scheduler and lambda funcitn.
 
 <img width="1600" height="900" alt="27- eventbridge cloudwatch" src="https://github.com/user-attachments/assets/77fc0e19-3ed6-4a92-998f-33121b1ae5e7" />
 
@@ -142,8 +166,9 @@ click Launch
 ---
 ---
 
-## Terraform destroy
+## 6. Terraform destroy
 
+after lab plesae destory to avoid cost. 
 
 <img width="1600" height="900" alt="27b- eventbridge cloudwatch" src="https://github.com/user-attachments/assets/4665c3b3-fb24-479b-ac92-0785710092b5" />
 
