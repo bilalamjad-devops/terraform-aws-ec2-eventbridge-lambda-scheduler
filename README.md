@@ -116,7 +116,7 @@ Because we applied this at 8:11 AM — just after the 8:00 AM trigger point — 
 
 ---
 
-## Verifying the EventBridge Schedules
+### Verifying the EventBridge Schedules
 
 Before trusting any automation, it's worth confirming in the console that what Terraform deployed actually matches what we intended. Under **EventBridge → Rules → Scheduled rules**, we can inspect both rules directly:
 
@@ -142,7 +142,7 @@ Remember that EventBridge cron expressions are always in UTC. `cron(0 3 ? * MON-
 
 ---
 
-## Verifying the Lambda Functions
+$## Verifying the Lambda Functions
 
 Next, under **Lambda → Functions**, we confirm both functions deployed correctly with the right runtime, handler, memory, and IAM role attached:
 
@@ -160,7 +160,7 @@ Checking the **Permissions** tab matters here — it's how we confirm the `EC2Sc
 
 ---
 
-## Verifying Execution in CloudWatch
+### Verifying Execution in CloudWatch
 
 The EC2 console tells you *that* something changed, but CloudWatch Logs tell you *why* — which instances the Lambda found, and whether it ran successfully.
 
