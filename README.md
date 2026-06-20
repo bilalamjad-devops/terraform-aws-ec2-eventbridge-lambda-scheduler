@@ -223,3 +223,10 @@ The pattern here generalizes well beyond EC2 — the same tag-and-trigger approa
 
 ---
 
+Let's connect and share knowledge! You can find me on:
+
+* **[GitHub](https://github.com/bilalamjad-devops)** — Check out my open-source projects and complete lab source code.
+* **[LinkedIn](https://www.linkedin.com/in/bilalamjad-devops/)** — Let's connect professionally and discuss all things DevOps and Cloud Engineering.
+* **[Medium](https://medium.com/@bilalamjad-devops)** — Follow my profile for more deep-dives, automation guides, and technical walkthroughs.
+
+20-June-2026
